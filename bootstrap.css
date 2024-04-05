@@ -1,5 +1,7 @@
  .card{
     max-width: 50%;
+    border-radius: 22px !important;
+    border-color: white !important;
 } 
 label{
     padding-bottom: 6px;
@@ -17,6 +19,10 @@ body{
 #exampleColorInput{
     max-width:15rem;
     border-radius: 12px;
+}
+.title h4{
+    font-weight: 700 !important;
+    font-size: 24px;
 }
 
 .form-label::after{
@@ -46,15 +52,23 @@ body{
     border: 3px dashed #B2BAD0;
     border-radius: 14px;
 }
+.light{
+    color: #8F9BBA;
+}
 .footer{
     border-radius: 22px !important;
     border-color: white !important;
 }
+
 .style{
     background-color: #FAF9FF !important;
     color: #2B3674 !important;
     border: 1px transparent !important;
     border-radius: 11px !important;
+}
+.btn-primary{
+    background-color: #4318FF !important;
+    border-radius: 16px !important;
 }
 .form-check-input:focus,
 .form-label:focus,

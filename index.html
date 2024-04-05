@@ -23,19 +23,20 @@
 
 <body>
   <section class="layout">
-    <div class="container d-flex gap-3">
+    <div class="container d-flex gap-4 ">
       <div class="card p-5 mb-4 mt-4">
         <div class="title">
           <h4>Basic Details</h4>
+        </div>
           <label class="upload d-flex p-4 mt-3 ">
             <div class="text-center max-auto" style="width: 250px;">
               <i class="fa-solid fa-upload text-primary"></i>
-              <p class="fw-bolder text-primary">Upload Image</p>
-              <p class="fw-500 fs-12px ">PNG, JPG files are allowed</p>
+              <p class="fw-bolder text-primary m-0">Upload Image</p>
+              <p class="fw-light light ">PNG, JPG files are allowed</p>
             </div>
           </label>
-          <div class="row mb-3 mt-4">
-            <div class="col-lg-4">
+          <div class="row mt-3 mb-3 ">
+            <div class="col-lg-4 col-md-6 mb-3">
               <label for="salutation" class="form-label">salutation </label>
               <select class="form-select" aria-label="Default select example">
                 <option selected>select</option>
@@ -44,15 +45,14 @@
                 <!-- <option value="3"></option> -->
               </select>
             </div>
-            <div class="col-lg-4">
-              <label for="firstname" class="form-label">First Name </label>
+            <div class="col-lg-4 col-md-6 mb-3 ">
+              <label for="firstname" class="form-label ">First Name </label>
               <input type="text" class="form-control" placeholder="john" aria-label="First name">
             </div>
-            <div class="col-lg-4 mb-3">
-              <label for="LastName" class="form-label">Last Name </label>
+            <div class="col-lg-4 col-md-6 mb-3">
+              <label for="LastName" class="form-label ">Last Name </label>
               <input type="text" class="form-control" placeholder="doe" aria-label="Last name">
             </div>
-          </div>
         </div>
         <div class="row mb-3">
           <div class="col-lg-6 mb-3">
@@ -130,7 +130,7 @@
 
       <div class="card p-5 mb-4 mt-4">
         <!-- <div class="card "> -->
-        <div class="title_advanced">
+        <div class="title">
           <h4>Advanced Details</h4>
         </div>
         <div class="Sample">
@@ -145,7 +145,7 @@
             <!-- <label for="customRange1" class="form-label">Example range</label> -->
             <input type="range" class="form-range" id="customRange1">
           </div>
-          <div class="col-lg-3 mb-3">
+          <div class="col-lg-3 mb-3 col-md-6 mb-3">
             <input type="text" class="size mt-3" value="160cm">
           </div>
           <div class="col-lg-3">
@@ -178,8 +178,8 @@
                   <label class="form-check-label temp" for="inlineCheckbox2">Template2</label>
                 </div>
                 <div class="form-check col-lg-4 ">
-                  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                  <label class="form-check-label temp" for="inlineCheckbox2">Template3</label>
+                  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option2">
+                  <label class="form-check-label temp" for="inlineCheckbox3">Template3</label>
                 </div>
               </div>
             </div>
@@ -187,8 +187,8 @@
         </div>
         <div>
           <div class="mb-3 mt-3">
-            <label for="formGroupExampleInput" class="form-label">Qualifications </label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="enter qualifications">
+            <label for="formGroupExampleInputq" class="form-label">Qualifications </label>
+            <input type="text" class="form-control" id="formGroupExampleInputq" placeholder="enter qualifications">
           </div>
         </div>
         <div>
@@ -214,7 +214,7 @@
       <div class="footer bg-white p-3 d-flex justify-content-md-end">
       <div class=" gap-2 d-md-flex justify-content-md-end">
         <button class="btn style me-md-2" type="button">Cancel</button>
-        <button class="btn btn-primary" type="button">Save Changes</button>
+        <button class="btn btn-primary btn-lg" type="button">Save Changes</button>
       </div>
     </div>
     </div>
