@@ -1,14 +1,16 @@
 @media screen  and (max-width:1200px){
     .card{
        max-width: 100%;
-       margin: 7px;
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
     }
     .container{
         flex-direction: column !important;
         align-items:center;
         padding: 0px;
+        
     }
     .footer{
         justify-content: end;
-    }
+    } 
 }

@@ -2,6 +2,8 @@
     max-width: 50%;
     border-radius: 22px !important;
     border-color: white !important;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
 } 
 label{
     padding-bottom: 6px;
@@ -11,7 +13,7 @@ body{
 }
 .size{
     border-radius: 15px;
-    width: 92px;
+    width: 85px !important;
     height: 50px;
     text-align: center;
     border: 1px solid #B6BBC7;
@@ -52,6 +54,9 @@ body{
     border: 3px dashed #B2BAD0;
     border-radius: 14px;
 }
+.upload i p{
+    color:#4318ff;
+}
 .light{
     color: #8F9BBA;
 }
@@ -65,10 +70,14 @@ body{
     color: #2B3674 !important;
     border: 1px transparent !important;
     border-radius: 11px !important;
+    /* font-size: 15px !important; */
+    font-weight: 700 !important;
 }
 .btn-primary{
     background-color: #4318FF !important;
     border-radius: 16px !important;
+    /* font-size: 15px !important; */
+    font-weight: 700 !important;
 }
 .form-check-input:focus,
 .form-label:focus,
